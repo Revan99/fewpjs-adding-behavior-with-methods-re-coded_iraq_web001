@@ -1,7 +1,8 @@
 // Your code here
 class Cat {
-  constructor(name){
+  constructor(name, gender){
     this.name = name
+    this.gender = gender
   }
   speak(){
     this.name = 'meow'
