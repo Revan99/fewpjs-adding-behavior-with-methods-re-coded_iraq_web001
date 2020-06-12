@@ -23,8 +23,8 @@ class Bird {
     this.gender = gender
   }
   speak(){
-    if()
-      return `${this.name} says woof!`
+    if(this.gender === 'male')
+      return ` It's me! ${this.name}, the parrot!`
     else 
       return `${this.name} says woof!` 
   }
